@@ -1,0 +1,376 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black; /* Text color inspired by the gold in the logo */
+}
+
+header {
+    background-color: #00395B; /* Darker shade for the header */
+    padding: 10px 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* home page starts */
+/* Other styles */
+
+.about-fabrics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #004C7F; /* Dark blue text color */
+}
+ 
+  
+.about-fabrics-content {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.about-fabrics-img {
+  width: 300px;
+  max-width: 600px;
+  height: 300px;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.about-fabrics-text {
+  padding: 20px;
+}
+
+.about-fabrics-text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.about-fabrics-text p {
+  font-size: 1rem;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  text-align: justify;
+}
+
+.learn-more-btn {
+  padding: 10px 20px;
+  background-color: #004C7F;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.learn-more-btn:hover {
+  background-color: #00395B;
+}
+
+.our-collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #004C7F; /* Dark blue text color */
+}
+
+.our-collection-content {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.our-collection-img {
+  width: 300px;
+  max-width: 600px;
+  height: 300px;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.our-collection-text {
+  padding: 20px;
+} 
+
+
+.our-collection-text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;*/
+ }
+
+
+.our-collection-text p {
+  font-size: 1rem;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  text-align: justify;
+} 
+
+
+#shop-by-category {
+  padding: 20px;
+  background-color: rgb(144, 144, 229);
+  text-align: center;
+}
+
+.slider {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slide {
+  padding: 10px;
+}
+
+.slide img {
+  width: 90%; /* Adjust width as needed for your layout */
+  margin: 0; /* Remove any margin from product items */
+  /*background-color: rgb(144, 144, 229);*/
+  background-color: #00395B
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center; 
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; /* Adjust the height as needed */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.mission h1 {
+  margin: 0;
+}
+
+.mission p {
+  max-width: 600px; /* Adjust the width as needed */
+  margin-bottom: 5%;
+}
+
+
+
+/* WhatsApp Chat Button */
+.whatsapp-chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366; /* WhatsApp green */
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+.whatsapp-chat a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.whatsapp-chat a i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.whatsapp-chat a:hover {
+  color: #004C7F; /* Dark blue on hover */
+}
+
+
+
+/* products page start... */
+.banner {
+    text-align: center;
+  }
+  
+  .banner h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .banner button {
+    background-color: #003366;
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10%;
+  }
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .product-container {
+    margin: 0;
+    background-color: #F5F5F5;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; /* This is the key property */
+  }
+
+.product-list {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+.product-list img {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+ 
+.product-list h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .product-list p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+.product-list button {
+    background-color: #003366;
+    color: #fff; /* Button text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* product page end */
+
+footer {
+    background-color: #00395B;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    display: flex; /* Use flexbox for simple 3-column layout */
+    justify-content: space-between; /* Distribute columns evenly */
+}
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex; /* Inherit flexbox for child elements */
+    flex-wrap: nowrap; /* Prevent columns from wrapping on smaller screens */
+  }
+
+  .footer-column {
+    width: 33.33%; /* Equal width for all columns */
+    padding: 10px;
+  }
+  
+  .footer-column img {
+    width: 120px; /* Adjust logo size as needed */
+    margin-bottom: 10px;
+  }
+  
+  /* Left-aligned content in first column */
+  .footer-column:first-child {
+    text-align: left;
+  }
+
+   /* Center-aligned content in second column */
+   .footer-column:nth-child(2) {
+    text-align: center;
+  }
+  
+  /* Right-aligned content in third column */
+  .footer-column:nth-child(3) {
+    text-align: right;
+  }
+  
+  .footer-column p {
+    margin-bottom: 5px;
+  }
+
+  .footer-column a {
+    text-decoration: none;
+    color: whitesmoke; /* Text color */
+  }
+  
+  .footer-column h3 {
+    margin-top: 0; /* Remove top margin for first column's heading */
+    margin-bottom: 10px;
+  }
+
+  .footer-column ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 5px;
+  }
+
+  .footer-p {
+    background-color: #00395B;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10;
+    padding: 10px 0;
+    width: 100%;
+    height:auto;
+  }
